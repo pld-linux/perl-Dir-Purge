@@ -5,11 +5,11 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Dir
 %define	pnam	Purge
-Summary:	Dir::Purge - Purge directories to a given number of files.
-#Summary(pl):	
+Summary:	Dir::Purge - Purge directories to a given number of files
+Summary(pl):	Dir::Purge - czyszczenie katalogu do podanej liczby plików
 Name:		perl-Dir-Purge
 Version:	1.0
-Release:	1
+Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -26,8 +26,10 @@ Dir::Purge implements functions to reduce the number of files in a
 directory according to a strategy. It currently provides one strategy:
 removal of files by age.
 
-# %description -l pl
-# TODO
+%description -l pl
+Modu³ Dir::Purge jest implementacj± funkcji zmniejszaj±cej liczbê
+plików w katalogu zgodnie ze strategi±. Aktualnie obs³uguje jedn±
+strategiê: usuwanie plików w zale¿no¶ci od ich wieku.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
