@@ -9,7 +9,7 @@ Summary:	Dir::Purge - Purge directories to a given number of files
 Summary(pl):	Dir::Purge - czyszczenie katalogu do podanej liczby plików
 Name:		perl-Dir-Purge
 Version:	1.0
-Release:	2
+Release:	3
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
