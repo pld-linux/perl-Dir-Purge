@@ -1,6 +1,6 @@
 #
 # Conditional build:
-# _without_tests - do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Dir
@@ -16,7 +16,7 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	6321bb4373f3aef6f8c4484dee7d692d
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{?_without_tests:0}%{!?_without_tests:1}
+%if %{with tests}
 BuildRequires:	perl(File::Path)
 %endif
 BuildArch:	noarch
@@ -40,7 +40,7 @@ strategiê: usuwanie plików w zale¿no¶ci od ich wieku.
 	INSTALLDIRS=vendor
 %{__make}
 
-%{!?_without_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
