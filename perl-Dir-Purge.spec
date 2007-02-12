@@ -6,7 +6,7 @@
 %define		pdir	Dir
 %define		pnam	Purge
 Summary:	Dir::Purge - purge directories to a given number of files
-Summary(pl):	Dir::Purge - czyszczenie katalogu do podanej liczby plików
+Summary(pl.UTF-8):   Dir::Purge - czyszczenie katalogu do podanej liczby plikÃ³w
 Name:		perl-Dir-Purge
 Version:	1.01
 Release:	1
@@ -27,10 +27,10 @@ Dir::Purge implements functions to reduce the number of files in a
 directory according to a strategy. It currently provides one strategy:
 removal of files by age.
 
-%description -l pl
-Modu³ Dir::Purge jest implementacj± funkcji zmniejszaj±cej liczbê
-plików w katalogu zgodnie ze strategi±. Aktualnie obs³uguje jedn±
-strategiê: usuwanie plików w zale¿no¶ci od ich wieku.
+%description -l pl.UTF-8
+ModuÅ‚ Dir::Purge jest implementacjÄ… funkcji zmniejszajÄ…cej liczbÄ™
+plikÃ³w w katalogu zgodnie ze strategiÄ…. Aktualnie obsÅ‚uguje jednÄ…
+strategiÄ™: usuwanie plikÃ³w w zaleÅ¼noÅ›ci od ich wieku.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
