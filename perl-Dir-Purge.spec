@@ -6,7 +6,7 @@
 %define		pdir	Dir
 %define		pnam	Purge
 Summary:	Dir::Purge - purge directories to a given number of files
-Summary(pl.UTF-8):   Dir::Purge - czyszczenie katalogu do podanej liczby plików
+Summary(pl.UTF-8):	Dir::Purge - czyszczenie katalogu do podanej liczby plików
 Name:		perl-Dir-Purge
 Version:	1.01
 Release:	1
