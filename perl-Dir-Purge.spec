@@ -12,8 +12,9 @@ Version:	1.02
 Release:	1
 License:	GPL v2+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Dir/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d3dfb0af9e06b14f3e9017fa6257ecda
+URL:		http://search.cpan.org/dist/Dir-Purge/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
