@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Dir
 %define		pnam	Purge
 Summary:	Dir::Purge - purge directories to a given number of files
